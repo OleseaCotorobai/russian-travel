@@ -1,0 +1,54 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    height: 740px;
+}
+
+.cover__link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    z-index: -1;
+    transition: opacity 200ms ease-out;
+}
+
+.cover__link:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .cover__link {
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .cover__link {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__link {
+        height: 266px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__link {
+        height: 200px;
+    }
+}

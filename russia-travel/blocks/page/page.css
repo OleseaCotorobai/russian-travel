@@ -1,0 +1,26 @@
+.page {
+    background: #2a2c2f;
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    color: #ffffff;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+
+}
+
+   
+
+@media screen and (max-width: 320px) {
+    .page {
+
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+        overflow: hidden;
+    }
+}
