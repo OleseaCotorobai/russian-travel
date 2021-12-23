@@ -9,7 +9,6 @@
     box-sizing: border-box;
     background-size: contain;
     max-width: 100%;
-    position: relative;
     z-index: 1;
     align-items: center;
     overflow: hidden;
