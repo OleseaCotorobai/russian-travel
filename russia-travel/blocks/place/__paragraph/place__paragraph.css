@@ -1,10 +1,8 @@
 .place__paragraph {
     max-width: 484px;
-    margin-top :48px;
+    margin-top : 26px;
+    margin-bottom: 0;
     margin-left: 40px;
-    
-    
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;

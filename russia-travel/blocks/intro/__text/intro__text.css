@@ -1,7 +1,6 @@
 .intro__text {
 
     max-width: 690px;
-    height: 208px;
     margin-top: 40px;
     margin-bottom: 0;
     font-size: 16px;
@@ -43,15 +42,4 @@
 
     }
 
-    @media screen and (max-width: 320px){
-        .intro__text
-        {
-            max-width: 288px;
-            min-height: 520px;
-            font-size: 16px;
-            line-height: 163%;
-            margin-left: 16px;
-            margin-right: 16px;
-            margin-bottom: 0;
-        }
-    }
+    

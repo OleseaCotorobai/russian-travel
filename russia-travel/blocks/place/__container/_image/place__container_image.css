@@ -1,0 +1,9 @@
+.place__container_image {
+  display: flex;
+}
+
+@media screen and (max-width: 750px) {
+  .place__container_image {
+    display: inline-block;
+  }
+}
